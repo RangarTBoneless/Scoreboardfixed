@@ -1,4 +1,10 @@
- <div class="container">
+ <html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
           <div class="column">
                 <h2>HOME</h2>
                 <h2 class="score" id="home-score">0</h2>
@@ -17,3 +23,8 @@
                 <button id="guest-score-btn-2" onclick="increaseGuestScoreTwo()">+2</button>
                 <button id="guest-score-btn-3" onclick="increaseGuestScoreThree()">+3</button>
             </div>
+          </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
